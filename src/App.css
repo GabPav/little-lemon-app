@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 body{
   width: 100%;
   margin: 0 auto;
@@ -6,6 +10,7 @@ body{
 li{
   list-style: none;
 }
+
 a{
   text-decoration: none;
 }
@@ -156,7 +161,7 @@ input, label{
 }
 
 .comfirm span{
-  color: blue;
+  color: #495E57;
 }
 
 
@@ -208,7 +213,9 @@ input, label{
   display: flex;
   justify-content: space-between;
 }
-
+.heading {
+  font-weight: 700;
+}
 .orderbtn{
   padding: 5px 12px;
   margin-bottom: 20px;
@@ -219,7 +226,9 @@ input, label{
 footer section{
   padding: 10px 13%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
   align-items: start;
 }
 
@@ -235,6 +244,7 @@ footer section{
 
 footer h3{
   font-size: 18px;
+  font-weight: 600;
 }
 
 footer ul{
